@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+
+.teampicture {
+	width: auto;
+    height: 100px;
+    align-items: center;
+}
+.col s3 {
+	text-align: center;
+}
+#allTeams{
+		text-emphasis-style: open;
+		text-align: center;
+}

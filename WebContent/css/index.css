@@ -1,0 +1,66 @@
+#playerPicture{
+    height: 400px;
+    width: auto;
+   
+}
+.playerDisplay {
+	color: black;
+}
+
+.playerText{
+    color: white;
+}
+#container {
+  margin: 0 auto;
+}
+​
+nav {
+  margin: 0px 0;
+  background-color: midnightblue;
+}
+​
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+  }
+
+nav ul li {
+  display:inline-block;
+  background-color: black;
+  }
+​
+nav a {
+  display:block;
+  padding:0 10px;
+  color:#FFF;
+  font-size:20px;
+  line-height: 60px;
+  text-decoration:none;
+}
+​
+nav a:hover {
+  background-color: #000000;
+}
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 60px; /* the height of the main nav */
+}
+
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+  display:inherit;
+}
+
+/* First Tier Dropdown */
+nav ul ul li {
+  width:170px;
+  float:none;
+  display:list-item;
+  position: relative;
+}
+/* Change this in order to change the Dropdown symbol */
+li > a:after { content:  ' +'; }
+li > a:only-child:after { content: '';}

@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+#teampic {
+	width: auto;
+	height: auto;
+	float: right;
+}
+body {
+	background-repeat: no-repeat;
+	background-size:contain;
+	background-attachment: fixed;
+	background-position: center;
+
+
+}
+
