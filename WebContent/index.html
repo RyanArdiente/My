@@ -8,13 +8,9 @@
     rel="stylesheet">
 <link href="css/materialize.css" type="text/css" rel="stylesheet"
     media="screen,projection" />
-<link href="css/style.css" type="text/css" rel="stylesheet"
-    media="screen,projection" />
-<link href="css/animate.css" type="text/css" rel="stylesheet" />
+
 <link href="css/index.css" type="text/css" rel="stylesheet"/>
-<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script src="js/materialize.js"></script>
-<script src="js/init.js"></script>
+
 </head>
 <body>
 
@@ -46,30 +42,30 @@
       <li>
         <img src="http://estaticos.marca.com/imagenes/2015/06/17/baloncesto/nba/playoffs/1434530083_extras_noticia_foton_7_1.jpg"> <!-- random image -->
         <div class="caption center-align">
-          <h5 class="light grey-text text-lighten-3">NBA</h5>
+          <h5 class="light grey-text text-lighten-3"></h5>
         </div>
       </li>
       <li>
         <img src="http://a.espncdn.com/photo/2013/0610/nba_blocks_12.jpg"> <!-- random image -->
         <div class="caption left-align">
-          <h5 class="light grey-text text-lighten-3">NBA.</h5>
+          <h5 class="light grey-text text-lighten-3"></h5>
         </div>
       </li>
       <li>
-        <img src="https://i.ytimg.com/vi/Cgbp0Kga4xw/maxresdefault.jpg"> 
+        <img src="https://i.ytimg.com/vi/Cgbp0Kga4xw/maxresdefault.jpg">
         <div class="caption right-align">
-          <h5 class="light grey-text text-lighten-3">NBA.</h5>
+          <h5 class="light grey-text text-lighten-3"></h5>
         </div>
       </li>
       <li>
         <img src="http://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2015%2F1205%2Fr33385_1296x518_5-2.jpg&w=1006&h=402&scale=crop&location=origin"> <!-- random image -->
         <div class="caption center-align">
-          <h5 class="light grey-text text-lighten-3">NBA</h5>
+          <h5 class="light grey-text text-lighten-3"></h5>
         </div>
       </li>
     </ul>
   </div>
-      
+
 <h3 class="left-align">News</h3>
 <ul class="collapsible popout" data-collapsible="accordion">
     <li>
@@ -138,7 +134,7 @@ Howard was ejected for picking up two technical fouls in each of the past two ga
     </li>
     <li>
       <div class="collapsible-header"><i class="material-icons">whatshot</i>Howard compares NBA to UFC after incredibly dirty play</div>
-      <div class="collapsible-body"><p>Over the weekend, Houston Rockets center Dwight Howard was ejected from a one-point loss against the Washington Wizards. Why? He was frustrated. Really, really frustrated. 
+      <div class="collapsible-body"><p>Over the weekend, Houston Rockets center Dwight Howard was ejected from a one-point loss against the Washington Wizards. Why? He was frustrated. Really, really frustrated.
 
 Towards the end of an extremely physical game that Howard later compared to a UFC match, the three-time Defensive Player of the Year shoved Wizards center Nene after he caught an elbow in the ribs. The Rockets might be the most disappointing team in the NBA, and injuries to some of their key players are a huge reason why, Howard included. Despite averaging 14.4 points and 11.8 rebounds per game, the 30-year-old has missed 10 of Houston's 50 games due to various injuries this season.
 
@@ -163,10 +159,20 @@ He's still a dominant force when he absolutely has to be, but that same night-to
 <p>3. Marc Davis, with 12 votes.</p></div>
     </li>
   </ul>
-        
+
 </div>
-<div class="video-container" class="center-align">
-        <iframe width="853" height="480" src="//www.youtube.com/watch?v=D41uS7Y05yM" frameborder="0" allowfullscreen></iframe>
-      </div>
+      <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script src="js/materialize.js"></script>
+      <script>  $(document).ready(function(){
+              $('.slider').slider({full_width: true});
+              // Pause slider
+  $('.slider').slider('pause');
+  // Start slider
+  $('.slider').slider('start');
+  // Next slide
+  $('.slider').slider('next');
+  // Previous slide
+  $('.slider').slider('prev');
+            });</script>
 </body>
 </html>

@@ -46,9 +46,9 @@
 			
   	<div class="card large" class=" center-align">
     <div class="card-image waves-effect waves-block waves-light">
-      <img class="center-align" id="playerPicture" class="activator" src="${currentPlayer.pictureLocation}">
+      <img class="activator center-align" id="playerPicture" src="${currentPlayer.pictureLocation}">
     </div>
-    <div class="center-align" class="card-content">
+    <div class="card-content center-align" class="card-content">
       <span class="card-title activator grey-text text-darken-4">${currentPlayer.fullName}<i class="material-icons right">more_vert</i></span>
     </div>
     <div  class="card-reveal">
