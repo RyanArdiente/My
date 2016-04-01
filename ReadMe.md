@@ -30,3 +30,7 @@ This NBA web project was used to practice using Spring MVC, to implement C.R.U.D
 <li>Delete Players</li>
 <li>View Team Rosters</li>
 </ul>
+<h4>Links</h4>
+<ul>
+<li><a href="http://nayrdnt.com:8080/MyTeamBasketballRoster">Deployed Project</a>/</li>
+</ul>
