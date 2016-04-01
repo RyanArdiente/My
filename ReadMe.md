@@ -1,6 +1,7 @@
 #
 <h1>Classroom Helper</h1>
-<h2>Created by the Council Of Battle</h2>
+
+
 Full Stack Web Application
 <h4>Project Specifications</h4>
 <ol>
