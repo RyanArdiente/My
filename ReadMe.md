@@ -1,8 +1,6 @@
 #
-<h1>Classroom Helper</h1>
+<h1>My Team Basketball Project</h1>
 
-
-Full Stack Web Application
 <h4>Project Specifications</h4>
 <ol>
 <li>Implement C.R.U.D.</li>
